@@ -1,0 +1,364 @@
+==> Loading data...
+
+Label: 0
+Name: Senghout
+Faces: 80
+
+Label: 1
+Name: Nita
+Faces: 130
+
+==> Loading Successfully...
+==> Loading data...
+
+Total Faces: (210, 10000)
+Total Label: (210, 1)
+
+==> Loading Successfully...
+array([[220, 219, 221, ..., 108, 110, 106],
+       [213, 210, 209, ...,  79,  43,  27],
+       [226, 226, 226, ...,  97,  55,  20],
+       ...,
+       [226, 223, 224, ..., 236, 236, 236],
+       [224, 236, 236, ..., 236, 236, 236],
+       [236, 236, 236, ..., 236, 236, 236]], dtype=uint8)
+array([[0.92270531, 0.89099526, 0.92647059, ..., 0.44588745, 0.45454545,
+        0.43478261],
+       [0.88888889, 0.84834123, 0.86764706, ..., 0.32034632, 0.16450216,
+        0.09130435],
+       [0.95169082, 0.92417062, 0.95098039, ..., 0.3982684 , 0.21645022,
+        0.06086957],
+       ...,
+       [0.95169082, 0.90995261, 0.94117647, ..., 1.        , 1.        ,
+        1.        ],
+       [0.94202899, 0.97156398, 1.        , ..., 1.        , 1.        ,
+        1.        ],
+       [1.        , 0.97156398, 1.        , ..., 1.        , 1.        ,
+        1.        ]])
+array([[0.92270531, 0.89099526, 0.92647059, ..., 0.44588745, 0.45454545,
+        0.43478261],
+       [0.88888889, 0.84834123, 0.86764706, ..., 0.32034632, 0.16450216,
+        0.09130435],
+       [0.95169082, 0.92417062, 0.95098039, ..., 0.3982684 , 0.21645022,
+        0.06086957],
+       ...,
+       [0.95169082, 0.90995261, 0.94117647, ..., 1.        , 1.        ,
+        1.        ],
+       [0.94202899, 0.97156398, 1.        , ..., 1.        , 1.        ,
+        1.        ],
+       [1.        , 0.97156398, 1.        , ..., 1.        , 1.        ,
+        1.        ]])
+Feature_0	Feature_1	Feature_2	Feature_3	Feature_4	Feature_5	Feature_6	Feature_7	Feature_8	Feature_9	...	Feature_9991	Feature_9992	Feature_9993	Feature_9994	Feature_9995	Feature_9996	Feature_9997	Feature_9998	Feature_9999	Feature_10000
+0	0.922705	0.890995	0.926471	0.921569	0.917476	0.923077	0.917874	0.917073	0.917073	0.917476	...	0.393939	0.406926	0.383333	0.412500	0.400810	0.427966	0.445887	0.454545	0.434783	0.0
+1	0.888889	0.848341	0.867647	0.872549	0.883495	0.879808	0.884058	0.878049	0.882927	0.878641	...	0.411255	0.389610	0.354167	0.412500	0.445344	0.470339	0.320346	0.164502	0.091304	0.0
+2	0.951691	0.924171	0.950980	0.950980	0.951456	0.951923	0.951691	0.956098	0.956098	0.946602	...	0.489177	0.510823	0.487500	0.516667	0.497976	0.491525	0.398268	0.216450	0.060870	0.0
+3	0.758454	0.710900	0.754902	0.735294	0.762136	0.754808	0.758454	0.746341	0.741463	0.752427	...	0.121212	0.121212	0.087500	0.083333	0.085020	0.182203	0.359307	0.463203	0.295652	0.0
+4	0.946860	0.928910	0.950980	0.950980	0.946602	0.951923	0.951691	0.951220	0.956098	0.961165	...	0.445887	0.458874	0.437500	0.475000	0.457490	0.478814	0.506494	0.519481	0.526087	0.0
+...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...	...
+205	1.000000	0.971564	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	...	1.000000	1.000000	0.950000	0.970833	0.931174	0.970339	1.000000	1.000000	1.000000	1.0
+206	0.946860	0.919431	0.950980	0.950980	0.951456	0.956731	1.000000	1.000000	1.000000	1.000000	...	1.000000	1.000000	0.950000	0.970833	0.931174	0.970339	1.000000	1.000000	1.000000	1.0
+207	0.951691	0.909953	0.941176	0.965686	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	...	1.000000	1.000000	0.950000	0.970833	0.931174	0.970339	1.000000	1.000000	1.000000	1.0
+208	0.942029	0.971564	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	...	1.000000	1.000000	0.950000	0.970833	0.931174	0.970339	1.000000	1.000000	1.000000	1.0
+209	1.000000	0.971564	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	1.000000	...	1.000000	1.000000	0.950000	0.970833	0.931174	0.970339	1.000000	1.000000	1.000000	1.0
+210 rows × 10001 columns
+
+The "Feature_10000" is the target label for the corresponding faces
+(147, 10001)
+(63, 10000)
+array([1., 0., 0., 1., 1., 1., 0., 1., 1., 1., 1., 0., 0., 1., 1., 1., 1.,
+       0., 1., 1., 1., 1., 1., 1., 1., 0., 1., 1., 1., 0., 1., 0., 1., 0.,
+       0., 1., 1., 1., 0., 1., 0., 1., 1., 0., 1., 1., 1., 0., 1., 0., 1.,
+       1., 1., 0., 0., 0., 1., 1., 0., 0., 0., 1., 1., 0., 1., 0., 1., 0.,
+       0.])
+{0: 'Senghout', 1: 'Nita'}
+
+              precision    recall  f1-score   support
+
+    Senghout       1.00      0.96      0.98        27
+        Nita       0.98      1.00      0.99        42
+
+    accuracy                           0.99        69
+   macro avg       0.99      0.98      0.98        69
+weighted avg       0.99      0.99      0.99        69
+
+(229, 10000) (229,)
+{0: 'Senghout', 1: 'Nita'}
+
+array([ True,  True,  True,  True, False,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True,  True,  True,  True,
+        True,  True,  True,  True,  True,  True])
+array([1., 0., 0., 1., 0., 1., 0., 1., 1., 1., 1., 0., 0., 1., 1., 1., 1.,
+       0., 1., 1., 1., 1., 1., 1., 1., 0., 1., 1., 1., 0., 1., 0., 1., 0.,
+       0., 1., 1., 1., 0., 1., 0., 1., 1., 0., 1., 1., 1., 0., 1., 0., 1.,
+       1., 1., 0., 0., 0., 1., 1., 0., 0., 0., 1., 1., 0., 1., 0., 1., 0.,
+       0.])
+array([1., 0., 0., 1., 1., 1., 0., 1., 1., 1., 1., 0., 0., 1., 1., 1., 1.,
+       0., 1., 1., 1., 1., 1., 1., 1., 0., 1., 1., 1., 0., 1., 0., 1., 0.,
+       0., 1., 1., 1., 0., 1., 0., 1., 1., 0., 1., 1., 1., 0., 1., 0., 1.,
+       1., 1., 0., 0., 0., 1., 1., 0., 0., 0., 1., 1., 0., 1., 0., 1., 0.,
+       0.])
+Mismatch at index 8: True label = [1.], Predicted label = 1.0
+Mismatch at index 16: True label = [1.], Predicted label = 1.0
+
+/var/folders/0d/6rdnr9tn31z_26gc4wmz92yh0000gn/T/ipykernel_13441/4276282416.py:26: DeprecationWarning:
+
+Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+
+
+Senghout 19.41
+Senghout 19.5
+Senghout 20.3
+Senghout 20.37
+Senghout 19.46
+Senghout 19.3
+Senghout 19.68
+Senghout 17.26
+Senghout 15.32
+Senghout 16.68
+Senghout 18.4
+Senghout 16.9
+Senghout 15.43
+Senghout 15.64
+Senghout 16.4
+Senghout 17.32
+Senghout 15.37
+Senghout 15.58
+Senghout 17.91
+Senghout 16.83
+Senghout 17.82
+Senghout 18.56
+Senghout 19.54
+Senghout 19.32
+Senghout 17.67
+Senghout 17.87
+Senghout 16.24
+Senghout 16.75
+Senghout 16.5
+Senghout 16.11
+Senghout 14.71
+Senghout 14.64
+Senghout 18.62
+Senghout 17.33
+Senghout 17.56
+Senghout 17.82
+Senghout 16.56
+Senghout 17.27
+Senghout 16.76
+Senghout 17.04
+Senghout 17.58
+Senghout 18.24
+Senghout 17.74
+Senghout 17.16
+Senghout 17.26
+Senghout 17.9
+Senghout 18.96
+Senghout 15.58
+Senghout 17.18
+Senghout 17.99
+Senghout 18.48
+Senghout 18.39
+Senghout 17.29
+Senghout 18.68
+Senghout 18.87
+Senghout 18.04
+Senghout 18.73
+Senghout 18.35
+Senghout 18.9
+Senghout 17.51
+Senghout 19.57
+Senghout 21.4
+Senghout 23.61
+Senghout 21.26
+Senghout 21.87
+Senghout 23.16
+Senghout 20.42
+Senghout 22.91
+Senghout 18.61
+Senghout 17.84
+Senghout 18.94
+Senghout 18.1
+Senghout 19.18
+Senghout 19.17
+Senghout 19.58
+Senghout 19.55
+Senghout 19.74
+Senghout 18.4
+Senghout 17.19
+Senghout 16.69
+Senghout 16.07
+Senghout 15.82
+Senghout 14.97
+Senghout 14.43
+Senghout 15.76
+Senghout 18.58
+Senghout 19.1
+Senghout 20.75
+Senghout 22.06
+Senghout 20.66
+Senghout 17.44
+Senghout 19.27
+Senghout 20.63
+Senghout 21.13
+Senghout 20.09
+Senghout 21.71
+Senghout 21.87
+Senghout 22.34
+Senghout 21.36
+Senghout 20.54
+Senghout 20.32
+Senghout 21.94
+Senghout 23.12
+Senghout 18.88
+Senghout 16.35
+Senghout 15.32
+Senghout 16.7
+Senghout 17.25
+Senghout 17.1
+Senghout 16.34
+Senghout 16.96
+Senghout 15.97
+Senghout 16.15
+Senghout 18.26
+Senghout 22.68
+Senghout 26.86
+Nita 25.91
+Nita 30.3
+Nita 26.21
+Senghout 23.93
+Senghout 24.38
+Senghout 20.72
+Senghout 19.14
+Senghout 17.26
+Senghout 23.99
+Senghout 18.28
+Senghout 17.43
+Senghout 18.29
+Senghout 19.35
+Senghout 21.04
+Senghout 22.32
+Senghout 21.84
+Nita 27.77
+Nita 27.35
+Senghout 24.47
+Senghout 23.35
+Senghout 22.43
+Senghout 23.33
+Senghout 22.34
+Senghout 21.28
+Senghout 21.8
+Senghout 20.84
+Senghout 20.7
+Senghout 22.08
+Senghout 18.53
+Senghout 19.24
+Senghout 19.16
+Senghout 19.93
+Senghout 19.84
+Senghout 20.12
+Senghout 20.23
+Senghout 20.36
+Senghout 19.9
+Senghout 19.13
+Senghout 18.89
+Senghout 19.0
+Senghout 17.94
+Senghout 18.84
+Senghout 18.88
+Senghout 18.86
+Senghout 18.93
+Senghout 19.44
+Senghout 19.28
+Senghout 19.62
+Senghout 19.79
+Senghout 19.45
+Senghout 21.18
+Senghout 20.13
+Senghout 19.99
+Senghout 20.28
+Senghout 20.79
+Senghout 20.87
+Senghout 18.54
+Senghout 17.21
+Senghout 16.87
+Senghout 16.69
+Senghout 19.1
+Senghout 20.32
+Senghout 20.65
+Senghout 19.83
+Senghout 18.47
+Senghout 18.34
+Senghout 17.39
+Senghout 22.86
+Senghout 21.03
+Senghout 21.77
+Senghout 21.52
+Senghout 23.12
+Senghout 23.1
+Senghout 22.39
+Senghout 19.81
+Senghout 19.15
+Senghout 19.13
+Senghout 22.11
+Senghout 23.31
+Senghout 26.88
+Senghout 31.61
+Senghout 30.19
+Senghout 30.74
+Senghout 29.63
+Senghout 31.23
+Senghout 29.73
+Senghout 29.78
+Senghout 30.31
+Senghout 30.39
+Senghout 31.29
+Senghout 32.77
+Nita 31.3
+Senghout 28.0
+Senghout 29.29
+Nita 31.04
+Senghout 30.83
+Senghout 33.08
+Senghout 28.54
+Senghout 27.4
+Senghout 27.57
+Senghout 25.82
+Senghout 26.74
+Senghout 27.22
+Senghout 28.79
+Senghout 28.27
+Senghout 26.76
+Senghout 22.75
+Senghout 21.13
+Senghout 20.61
+Senghout 18.88
+Senghout 18.85
+Senghout 19.8
+Senghout 18.64
+Senghout 18.68
+Senghout 19.68
+Senghout 18.58
+Senghout 19.35
+Senghout 18.74
+Senghout 19.08
+Senghout 19.14
+Senghout 18.23
+Senghout 18.52
+Senghout 18.21
+Senghout 17.64
+Senghout 16.65
+Senghout 15.49
+Senghout 15.62
+Senghout 16.38
+Senghout 16.5
+Senghout 17.74
+Senghout 15.66
+Senghout 16.34
+Senghout 16.58
+Senghout 16.62
+Senghout 15.82
+Senghout 16.78
